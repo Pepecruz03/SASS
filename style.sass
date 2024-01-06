@@ -1,0 +1,41 @@
+$colorprincipal: red
+$margen: 150px
+
+/* 
+    mixin es para reutilizar codigo
+
+*
+    background-color: blue
+
+@mixin letra($size, $weight, $space)
+    font-size: $size
+    font-weight: $weight
+    letter-spacing: $space
+
+/*
+    condicionales
+
+@if $background == black
+    background-color:$background
+    color:white
+
+
+
+    
+
+.button
+        @include letra(34px, 1000, 40px)
+        border-radius: 35px
+        margin-left: $margen
+        
+        p
+         color: white
+         background-color: red
+            
+div
+    p
+        color: green
+        font-size: 80px
+.bg-red
+    background-color: $colorprincipal
+    
