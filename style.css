@@ -1,25 +1,11 @@
 /*  mixin es para reutilizar codigo */
-* {
-  background-color: blue;
-}
-
 .button {
-  font-size: 34px;
-  font-weight: 1000;
-  letter-spacing: 40px;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 12px;
+  background-color: black;
+  color: auto;
+  background-color: black;
+  color: whithe;
   border-radius: 35px;
-  margin-left: 150px;
-}
-.button p {
-  color: white;
-  background-color: red;
-}
-
-div p {
-  color: green;
-  font-size: 80px;
-}
-
-.bg-red {
-  background-color: red;
 }/*# sourceMappingURL=style.css.map */
